@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", serif;
+  overflow-x: hidden;
+}
+
+.cont-hero {
+  background-image: url("https://themeforest.kreativdev.com/bookapp/demo/assets/images/page-title-bg-1.png");
+  background-position: center center;
+  background-size: cover;
+  height: 200px;
+  color: white;
+  display: flex;
+  font-size: 23px;
+  h1 {
+    font-weight: bold;
+  }
+}
+.navbar-up {
+  .nav-link {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .login {
+    background-color: #ff3662;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+  }
+  .lang {
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+.service {
+  .first {
+    img {
+      border-radius: 50%;
+      width: 50px;
+    }
+    p {
+      font-size: 20px;
+      color: grey;
+      font-weight: 500;
+    }
+    h4 {
+      font-weight: bold;
+      span {
+        font-size: 18px;
+        color: grey;
+      }
+    }
+    .star {
+      color: #ffc800;
+    }
+  }
+
+  h4 {
+    font-weight: bold;
+  }
+
+  .second {
+    .para {
+      font-size: 20px;
+      color: grey;
+    }
+  }
+  .third {
+    font-size: 20px;
+    li {
+      color: grey;
+      span {
+        color: black;
+        font-weight: 500;
+      }
+    }
+  }
+  .fourth {
+    .icon {
+      color: #ff3662;
+      font-size: 25px;
+    }
+    p {
+      color: grey;
+      font-size: 20px;
+    }
+  }
+}
+
+
+.count-shop{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  img{
+    width: 180px;
+    margin-right: 15px;
+  }
+  .list{
+    border: 1px solid grey;
+    padding: 30px 10px;
+    margin: 20px;
+    border-radius: 20px;
+    span{
+      font-weight: bold;
+    }
+  }
+  button{
+    height: 60px;
+    width: 70px;
+    background-color: #ff3662;
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+}
+.photo{
+  button{
+    height: 60px;
+    width: 70px;
+    background-color: #ff3662;
+    color: white;
+    border: none;
+    border-radius: 20px;
+  }
+  img{
+    border-radius: 20px;
+  }
+}
